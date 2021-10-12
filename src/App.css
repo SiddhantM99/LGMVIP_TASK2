@@ -1,0 +1,58 @@
+.App
+{
+  background-image: url(Wallpaper.jpg);
+  /* width: 100%;
+  height: 100%; */
+      /* backgroundPosition: 'center';
+        backgroundSize: 'cover';
+        backgroundRepeat: 'no-repeat'; */
+        width: '100vw';
+        height: '100vh';
+}
+.top
+{
+  font-size: 75px;
+  font-variant-caps: petite-caps;
+  font-family: monospace;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+  background-image: url(Wallpaper.jpg);
+  text-shadow: 2px 5px 5px black;
+  width: '100vw';
+        height: '100vh';
+}
+.btn
+{
+  font-size: 20px;
+  padding: 5px;
+  float: left;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px black;
+}
+.btn:hover{
+  color: red;
+  background-color: white;
+  box-shadow: 5px 5px 5px gold;
+}
+.card
+{
+  background-color: brown;
+  border-radius:5%;
+  width: 275px;
+  height: 275px;
+  box-shadow: 5px 5px 5px gold;
+  padding:7px;
+}
+.caption
+{
+  font-size: 15px;
+  text-align:end;
+  color: white;
+}
+.square-img
+{
+  border-radius: 50px;
+  padding: 5px;
+}
